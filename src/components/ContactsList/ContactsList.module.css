@@ -1,0 +1,9 @@
+.ContactList {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  padding: 20px;
+  border: 1px solid blakc;
+  border-radius: 5px;
+  background-color: cadetblue;
+}
