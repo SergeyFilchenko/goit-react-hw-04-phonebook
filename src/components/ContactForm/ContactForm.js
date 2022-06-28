@@ -7,7 +7,7 @@ export default function ContactForm({ addContact }) {
   const [name, setName] = useState('');
   const [number, setNumber] = useState('');
 
-  const handleInputChange = ({ currentTarger: { name, value } }) => {
+  const handleInputChange = ({ currentTarget: { name, value } }) => {
     switch (name) {
       case 'name':
         setName(value);
